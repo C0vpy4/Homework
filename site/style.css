@@ -1,0 +1,81 @@
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    overflow: hidden;
+    font-family: Helvetica
+}
+
+.container{
+    width: 70%;
+    height: 1600px;
+    background-color: black;
+    display: flex;
+}
+
+.main_text{
+    display: flex;
+    justify-content: center;
+}
+
+.name{
+    margin-left: 40px;
+    margin-top: 30%;
+    color: aliceblue;
+    width: 500px;
+    height: 30%;
+    z-index: 1;
+}
+
+.name_2{
+    font-size: 100px;
+}
+
+.surname{
+    font-size: 50px;
+}
+
+.photo{
+    position: fixed;
+    z-index: 2;
+    margin-left: 32%;
+}
+
+img{
+    margin-top: 30px;
+    width: 500px;
+    height: 640px;
+    animation: 3s all infinite alternate;
+}
+
+.photo:hover, img:hover{
+    border-radius: 8px;
+}
+
+.text{
+    margin-top: 50%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 10%;
+}
+
+.palka{
+    height: 60px;
+    background-color: aliceblue;
+    width: 10px;
+    margin-right: 10px;
+}
+
+p{
+    margin-left: 5px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
